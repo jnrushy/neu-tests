@@ -29,7 +29,6 @@ class TestCompanySearch(unittest.TestCase):
         driver.find_element_by_css_selector("input[type=\"text\"]").clear()
         driver.find_element_by_css_selector("input[type=\"text\"]").send_keys("neu")
         driver.find_element_by_css_selector("input[type=\"text\"]").send_keys(Keys.RETURN)
-        
         time.sleep(3)
         
         try: self.assertTrue(self.is_element_present(By.LINK_TEXT, "Joshua Abram"))
