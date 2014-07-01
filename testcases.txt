@@ -1,0 +1,19 @@
+Search a member
+Edit Member (change the status and then make sure that it didn't duplicate the member by looking at the company page and make sure there aren't two of the same member entries)
+Search a company
+Add a member from Company page
+Add a Company
+Check the reports to make sure they open as an html and then also as csv (check with aash to see which ones he still hasn't made csv docs for)
+Go to Front Door and enter in my id # that you can get from my member page, make sure that my picture comes up when you enter it
+After you login with my id, check the report "Access Report by date range" and make sure that it shows up (you need to put today as start date and tomorrows date for end date to make it work)
+Check in from a member page (use any Neuehouse employee)
+
+PLEASE make sure that Aash removes any new companies or members that you ad and make sure you change back any statuses (I usually use my account for all those edits)
+
+future tests
+adding statuses
+adding contract info
+and everything else that can be done....
+
+Obviously you need to specifically also test whatever was new and is getting pushed out in this release.
+

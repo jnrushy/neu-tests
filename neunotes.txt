@@ -1,0 +1,44 @@
+vpn
+remote.neuehouse.com
+rgreenberg
+pw - Water2013!
+
+access
+
+staging
+ssh -v -i ~/.ssh/lunabell.pem ec2-user@aws.lunabell.com
+
+prod
+ip address needs to be approved
+ssh 10.50.5.25
+sudo -s
+
+
+quickbooks
+
+clear log 
+ctrl c before running sync
+check far left box
+
+login
+Admin / NH2890!
+
+open wc via start menu
+
+tunnel db to prod
+ssh -L 3307:localhost:3306 jrush@10.50.5.25
+
+
+
+QS
+1. make sure UI is empty
+if not empty clear it
+2. go to qb web connector
+- prompt each time
+- allow
+3.refresh UI and verify data is there
+4. grab some whats changed examples
+5 perform sync
+6.check quickbooks customers and verify whats changed shows up. 
+
+
